@@ -1,0 +1,4505 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "587e6e50-81d6-462b-b344-ac59e2d5f03a")
+	(paper "A4")
+	(title_block
+		(title "Avionics-BatteryBoard")
+		(date "2024-06-15")
+		(rev "1.1")
+		(company "Argus-1 Cubesat")
+		(comment 1 "M. Holliday")
+		(comment 2 "N. Khera")
+	)
+	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0.762 0.508 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "R_Small"
+				(at 0.762 -1.016 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Small_0_1"
+				(rectangle
+					(start -0.762 1.778)
+					(end 0.762 -1.778)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 0.762)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Transistor_BJT:MBT2222ADW1T1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "MBT2222ADW1T1"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "NPN/NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?363*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MBT2222ADW1T1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBT2222ADW1T1_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MBT2222ADW1T1_2_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mainboard:NX3008NBKS"
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "NX3008NBKS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at -13.97 -13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
+				(at -13.97 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual N-Channel MOSFET - 2NMOS"
+				(at -13.97 -19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Nexperia USA Inc."
+				(at -13.97 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "NX3008NBKS"
+				(at -13.97 -24.13 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NX3008NBKS_1_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.905) (xy -1.016 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy -0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "NX3008NBKS_2_1"
+				(polyline
+					(pts
+						(xy -1.016 0) (xy -3.81 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.905) (xy -1.016 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.27) (xy -0.508 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 0.508) (xy -0.508 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.286) (xy -0.508 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 -1.778) (xy 2.032 -1.778) (xy 2.032 1.778) (xy -0.508 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy 0.762 0.381) (xy 0.762 -0.381) (xy -0.254 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 1.651 0.381) (xy 2.413 0.381) (xy 2.54 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 0.381) (xy 1.651 -0.254) (xy 2.413 -0.254) (xy 2.032 0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0.381 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.54)
+					(name "D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 124.587 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b40bcba-b8bd-4ae7-a607-a8db5ee3a7ae")
+	)
+	(junction
+		(at 82.677 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31ff68af-357a-438e-8bd9-ca4b9e3899d8")
+	)
+	(junction
+		(at 87.757 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d81bacb-4f06-44bc-ba16-f525538a2b27")
+	)
+	(junction
+		(at 82.677 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b488dac-246b-4f20-9302-d74af94370cb")
+	)
+	(junction
+		(at 77.597 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b61b705-4815-4c2f-9745-323fd87d6c94")
+	)
+	(junction
+		(at 87.757 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d95e8bd-1474-4582-b673-a66e1d1dbf05")
+	)
+	(junction
+		(at 119.507 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b0e7fde-24c9-4c38-bcc1-d9d5bae55e37")
+	)
+	(junction
+		(at 87.757 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f45c106-b5b1-4d1a-aa2e-3a8f9667218c")
+	)
+	(junction
+		(at 64.897 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8638585b-7abf-4240-983e-e3236a7c227f")
+	)
+	(junction
+		(at 72.517 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8b1ad3ac-9d21-4071-9018-d8d31c252a82")
+	)
+	(junction
+		(at 87.757 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fb8d8ff-0dc6-46ec-9fe8-9b9db001b15f")
+	)
+	(junction
+		(at 129.667 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "925755c4-4418-435f-804f-94ba54498a55")
+	)
+	(junction
+		(at 129.667 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97c507ed-bd27-49a2-a555-bed797f8dfa8")
+	)
+	(junction
+		(at 129.667 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1c8f5c0-6292-4eec-96d8-889bc1ca1625")
+	)
+	(junction
+		(at 129.667 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89c8b59-9e3c-40a6-84d5-20959c219f26")
+	)
+	(junction
+		(at 124.587 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aaba15c6-b6fd-464d-a8b3-15b9c12b6567")
+	)
+	(junction
+		(at 80.137 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b353cd02-5e22-4e36-89ea-f1e9905ccbaf")
+	)
+	(junction
+		(at 106.807 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c309a48d-2e27-4b58-bfd7-39bb67257f08")
+	)
+	(junction
+		(at 87.757 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd7a7560-e396-4eb5-a157-bfb258feca24")
+	)
+	(junction
+		(at 129.667 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df25c9b0-ce30-46bc-a607-498b5bd934b9")
+	)
+	(junction
+		(at 122.047 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee0b72d1-f885-4c20-bb3d-f7f7caffed8a")
+	)
+	(junction
+		(at 114.427 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f55c3a16-820e-410a-8840-725cedcd9d9b")
+	)
+	(wire
+		(pts
+			(xy 87.757 85.09) (xy 87.757 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "002f7de1-2002-4713-846a-17eb3b289c17")
+	)
+	(wire
+		(pts
+			(xy 82.677 60.96) (xy 82.677 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ee5be6-1957-45e2-90c7-23bbb93b38b1")
+	)
+	(wire
+		(pts
+			(xy 115.697 86.36) (xy 124.587 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c728d4-4013-4367-b97f-0ccd58a755ec")
+	)
+	(wire
+		(pts
+			(xy 129.667 93.98) (xy 129.667 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0842c26f-e9ae-4592-a623-3ed417461c60")
+	)
+	(wire
+		(pts
+			(xy 99.06 152.4) (xy 101.473 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09cab18d-e601-4c7d-8b15-d135ed1297b9")
+	)
+	(wire
+		(pts
+			(xy 73.787 76.2) (xy 77.597 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d0faf63-a16e-4613-8aff-dfbe0e70095c")
+	)
+	(wire
+		(pts
+			(xy 90.297 85.09) (xy 87.757 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f9f176e-e9e9-44a1-a327-073810725b36")
+	)
+	(wire
+		(pts
+			(xy 80.137 114.3) (xy 87.757 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1159acdc-fdf2-4527-a9d9-18e451ac028d")
+	)
+	(wire
+		(pts
+			(xy 72.517 100.33) (xy 72.517 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "154595d3-a0b4-414b-9297-ac39731e76a1")
+	)
+	(wire
+		(pts
+			(xy 64.897 114.3) (xy 80.137 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fe90a8c-7bf4-4891-bb90-a84e0d89e17a")
+	)
+	(wire
+		(pts
+			(xy 64.897 86.36) (xy 68.707 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb48c35-c744-44de-9d5e-16e28981e1bc")
+	)
+	(wire
+		(pts
+			(xy 87.757 60.96) (xy 82.677 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e3c8c0-48af-4bd3-89c1-2a997ce45abb")
+	)
+	(wire
+		(pts
+			(xy 64.897 106.68) (xy 64.897 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ece473-08f7-4282-bdf9-04022a8c42d4")
+	)
+	(wire
+		(pts
+			(xy 64.897 86.36) (xy 64.897 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489510dd-bcff-487f-b34a-fc11fdaf9f80")
+	)
+	(wire
+		(pts
+			(xy 124.587 67.31) (xy 124.587 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a373d40-f8b1-4b88-b1fd-d89a76bc38d2")
+	)
+	(wire
+		(pts
+			(xy 129.667 85.09) (xy 129.667 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52891040-f6f1-4bec-9665-288582c869f6")
+	)
+	(wire
+		(pts
+			(xy 72.517 93.98) (xy 72.517 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d6e2b7-0bf0-4bda-a671-8d553a5859f4")
+	)
+	(wire
+		(pts
+			(xy 119.507 76.2) (xy 119.507 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ff029c-e764-47d5-a402-a417f3f81ff8")
+	)
+	(wire
+		(pts
+			(xy 73.787 86.36) (xy 82.677 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ff1ffd-ddfc-47a1-92ea-fb7c833530b5")
+	)
+	(wire
+		(pts
+			(xy 91.44 152.4) (xy 93.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65126d47-7ce0-4ab0-997d-4d303ee36b75")
+	)
+	(wire
+		(pts
+			(xy 106.807 86.36) (xy 106.807 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a80f4bf-c1b9-4b08-af8e-f1efb5a3ce78")
+	)
+	(wire
+		(pts
+			(xy 106.807 114.3) (xy 122.047 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7468483a-e8d0-4836-86a5-76080c11e9de")
+	)
+	(polyline
+		(pts
+			(xy 178.308 65.278) (xy 178.308 118.618)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74abdf38-b58d-432d-b979-8d47531da590")
+	)
+	(wire
+		(pts
+			(xy 64.897 96.52) (xy 64.897 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750caed2-bf0d-47ed-9b8b-c507d3d5f8ec")
+	)
+	(wire
+		(pts
+			(xy 82.677 67.31) (xy 82.677 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77853373-8588-4e61-8b5a-8616cc78e546")
+	)
+	(wire
+		(pts
+			(xy 99.06 144.78) (xy 101.6 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81afbe43-c385-4d06-b5c5-987ab45f0ecf")
+	)
+	(wire
+		(pts
+			(xy 129.667 102.87) (xy 129.667 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "840452cb-0529-4d1f-b4de-e72db1407295")
+	)
+	(polyline
+		(pts
+			(xy 244.348 65.278) (xy 178.308 65.278)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8985f098-7f2c-4176-807f-959fe1dc4047")
+	)
+	(wire
+		(pts
+			(xy 114.427 100.33) (xy 114.427 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b0bf48a-1e6d-47b6-b01d-393ba77a0f62")
+	)
+	(wire
+		(pts
+			(xy 87.757 60.96) (xy 87.757 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4e0cef-5245-4414-85f1-232845e573d8")
+	)
+	(wire
+		(pts
+			(xy 124.587 60.96) (xy 124.587 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90ba0d82-3ac7-41f3-9729-075a6fe03117")
+	)
+	(polyline
+		(pts
+			(xy 178.308 118.618) (xy 244.348 118.618)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95b73e19-1de6-473c-ab2c-6369155f266a")
+	)
+	(wire
+		(pts
+			(xy 122.047 111.76) (xy 122.047 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9683535f-b839-46c8-9947-39e0d72eb768")
+	)
+	(wire
+		(pts
+			(xy 106.807 68.58) (xy 124.587 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1735ef0-b6e8-4597-af39-700c5b3b5550")
+	)
+	(wire
+		(pts
+			(xy 87.757 73.66) (xy 87.757 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5f013cd-774b-432a-b73a-addfda1b2156")
+	)
+	(wire
+		(pts
+			(xy 87.757 102.87) (xy 87.757 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14415c4-c68d-4907-81d5-7589c2d68b78")
+	)
+	(wire
+		(pts
+			(xy 87.757 93.98) (xy 87.757 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33cf582-7c14-4d68-897f-85bd820aa4a8")
+	)
+	(wire
+		(pts
+			(xy 106.807 96.52) (xy 106.807 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5db4515-a7b4-4901-b899-7e150189bd8d")
+	)
+	(wire
+		(pts
+			(xy 129.667 73.66) (xy 129.667 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b647cf72-52e5-4906-bf77-50ea3c4a9aa5")
+	)
+	(polyline
+		(pts
+			(xy 244.348 118.618) (xy 244.348 65.278)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b782959a-60ff-475e-8923-45d8a3ad64b9")
+	)
+	(wire
+		(pts
+			(xy 87.757 93.98) (xy 87.757 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc7400f6-a5b5-4328-b162-e0159055d9b7")
+	)
+	(wire
+		(pts
+			(xy 129.667 60.96) (xy 129.667 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be528eca-4122-4060-9956-3f5ca5d3d308")
+	)
+	(wire
+		(pts
+			(xy 122.047 114.3) (xy 129.667 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf12066c-e6f3-4a5a-8de6-09356bf1c033")
+	)
+	(wire
+		(pts
+			(xy 114.427 93.98) (xy 114.427 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c26e1ffc-3c7a-4723-9d97-02b70369e655")
+	)
+	(wire
+		(pts
+			(xy 72.517 101.6) (xy 80.137 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c480e314-7cc8-4db4-82db-e941b06d592f")
+	)
+	(wire
+		(pts
+			(xy 132.207 85.09) (xy 129.667 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5332bb8-31b7-4bae-9379-64e1df7b9263")
+	)
+	(wire
+		(pts
+			(xy 114.427 101.6) (xy 122.047 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe199d2-ef9d-45bb-8253-f6653d528bfb")
+	)
+	(wire
+		(pts
+			(xy 77.597 76.2) (xy 77.597 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d99a7e66-531e-4dd0-907b-05166542ec02")
+	)
+	(wire
+		(pts
+			(xy 106.807 86.36) (xy 110.617 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df7ce8c6-99bb-44b4-a831-a6bad343b440")
+	)
+	(wire
+		(pts
+			(xy 129.667 93.98) (xy 129.667 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e23eab90-20a9-4c0f-8522-177399412cb4")
+	)
+	(wire
+		(pts
+			(xy 115.697 76.2) (xy 119.507 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e359c4bc-128d-4448-9fd0-8e06af3db507")
+	)
+	(wire
+		(pts
+			(xy 91.44 144.78) (xy 93.98 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e734747c-b012-48cd-bfa3-20d30284be8b")
+	)
+	(wire
+		(pts
+			(xy 64.897 68.58) (xy 82.677 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e97ecf5c-e353-467c-bf71-1afa5accdfae")
+	)
+	(wire
+		(pts
+			(xy 80.137 111.76) (xy 80.137 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddf80a5-9d7a-4b44-8d29-6fb28f276429")
+	)
+	(wire
+		(pts
+			(xy 106.807 106.68) (xy 106.807 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe29afbb-01cf-4a30-ac95-b14d3a8d743a")
+	)
+	(wire
+		(pts
+			(xy 129.667 60.96) (xy 124.587 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff17a2e3-6081-49e5-ac31-93e66ad17515")
+	)
+	(text "NOTE"
+		(exclude_from_sim no)
+		(at 179.578 70.358 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "681a7cea-8b99-42e7-b0ab-ea4d8b1676df")
+	)
+	(text "Fuel Gauge Jumpers"
+		(exclude_from_sim no)
+		(at 70.104 149.225 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7076236c-9b50-4004-85a9-ced134533a27")
+	)
+	(text "I2C Bus Protection - Fuel Gauge"
+		(exclude_from_sim no)
+		(at 71.374 51.562 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "94509d08-1b0c-4d2e-af7f-36d6e331e441")
+	)
+	(text "These novel bus protection circuits\nprevent traditional I2C/SPI failure \nmodes where a single slave failure\ncan disable the entire bus.\n\nLearn more: \nhttps://doi.org/10.36227/techrxiv.15166620\n\nBy default, slave clock and/or data lines \ncan be held low and the Master (SAMD51) \nwill still be able to communicate with the \nremainder of the bus.\n\nThey can individually be bypassed by \nremoving the transistor(s) and soldering\nthe 0ohm jumpers to the right."
+		(exclude_from_sim no)
+		(at 182.118 116.078 0)
+		(effects
+			(font
+				(size 1.7526 1.7526)
+			)
+			(justify left bottom)
+		)
+		(uuid "b52fde60-6420-451b-8fd8-ff09316fd2a8")
+	)
+	(text "Bus Protection"
+		(exclude_from_sim no)
+		(at 207.01 176.53 0)
+		(effects
+			(font
+				(size 4.445 4.445)
+				(thickness 0.889)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1633ee0-551a-4561-bd77-418580a6d3bd")
+	)
+	(text "Bus Protection - Bypass Jumpers"
+		(exclude_from_sim no)
+		(at 69.85 137.16 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "e349e4b8-55d7-4841-a968-2b41635120b3")
+	)
+	(global_label "SDA1"
+		(shape bidirectional)
+		(at 115.697 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0934999a-ec30-446d-b3f3-4381862e206a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.7153 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_Fuel"
+		(shape bidirectional)
+		(at 101.473 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "382416d3-739d-4891-8735-b502e056b924")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.2836 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL_Fuel"
+		(shape output)
+		(at 90.297 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4625e5c0-7720-49a6-9cac-4f643d120aee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.0946 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL1"
+		(shape input)
+		(at 91.44 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54033792-add8-4853-bf9c-3f05ac086603")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.4713 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA_Fuel"
+		(shape bidirectional)
+		(at 132.207 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "943a320c-60b1-4143-8e40-adfc32f6eea1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 144.0176 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL_Fuel"
+		(shape output)
+		(at 101.6 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "95909848-38ca-48fb-8309-f02b4f9208b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 112.3976 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL1"
+		(shape input)
+		(at 73.787 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ab01e9d-c4ce-4d9d-8858-59cf7b01ebdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.8183 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA1"
+		(shape bidirectional)
+		(at 91.44 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd783338-b0db-44dd-a84a-6cb29866be64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.4583 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 129.667 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "009b03aa-c28b-4c02-b209-153ab554a3d5")
+		(property "Reference" "C13"
+			(at 132.588 109.347 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 132.588 111.633 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 130.6322 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.667 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF +-10% 50V X7R"
+			(at 129.667 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e6720d6-1b66-426c-bded-9365319c7ee3")
+		)
+		(pin "2"
+			(uuid "45738c4b-cc47-43a9-97d3-7153860f30ae")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 152.4 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0190c15c-896e-40b0-a1c7-c924222b3fe8")
+		(property "Reference" "R42"
+			(at 96.52 150.241 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNI (0R)"
+			(at 96.52 154.813 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 96.52 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 96.52 154.432 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86dd826e-3f79-4ab0-97b4-c5a2280ff886")
+		)
+		(pin "2"
+			(uuid "273d0d26-a456-4b17-985f-41cc46e7414b")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 72.517 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02972268-67ae-4dea-925b-11dc890124bd")
+		(property "Reference" "#PWR024"
+			(at 72.517 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 72.517 90.297 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.517 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.517 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.517 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c3bd89e-82d1-4e8f-8de3-0f41408067c9")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 82.677 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "096f2749-db4d-488b-90f1-24452bb5381d")
+		(property "Reference" "#PWR025"
+			(at 82.677 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 82.677 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.677 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.677 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 82.677 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb04776a-eb37-4959-9647-1c77ebd096fb")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 124.587 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c7f87bd-d627-4745-aa36-ebaf17984729")
+		(property "Reference" "#PWR028"
+			(at 124.587 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 124.587 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.587 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.587 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.587 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ee3ceb5-9bca-4395-9dc9-80b89f59cabc")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:NX3008NBKS")
+		(at 81.407 106.68 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2714745d-dbc1-40f4-a795-0ba5d8d26566")
+		(property "Reference" "Q14"
+			(at 77.597 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NX3008NBKS"
+			(at 85.217 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 95.377 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
+			(at 95.377 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
+			(at 95.377 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 95.377 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NX3008NBKS"
+			(at 95.377 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Proto" "BSS138DWQ-7"
+			(at 81.407 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f3f2c5a-a978-40ac-bcb0-ffa3f13b5147")
+		)
+		(pin "2"
+			(uuid "b91e04da-b55d-4f7d-9596-62b666f29856")
+		)
+		(pin "6"
+			(uuid "4cd2c28b-0556-438d-9736-39d5503d58d2")
+		)
+		(pin "3"
+			(uuid "32d9da07-133a-4efe-8883-a00b3d47eb98")
+		)
+		(pin "4"
+			(uuid "bfa0ee8b-8746-40f1-bcdf-1dff55a41f9b")
+		)
+		(pin "5"
+			(uuid "85211d9a-743b-4ec8-9072-6d39e356bc69")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "Q14")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:NX3008NBKS")
+		(at 108.077 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3031e4fc-7476-4183-9432-79f8f9bee1ad")
+		(property "Reference" "Q16"
+			(at 104.013 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NX3008NBKS"
+			(at 119.888 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 122.047 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
+			(at 122.047 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
+			(at 122.047 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 122.047 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NX3008NBKS"
+			(at 122.047 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Proto" "BSS138DWQ-7"
+			(at 108.077 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17f8c793-122c-4f2c-b082-2183bc493468")
+		)
+		(pin "2"
+			(uuid "79737fed-6d6a-4377-9cfb-2a1d8697b209")
+		)
+		(pin "6"
+			(uuid "7b0fe712-222f-4a91-922d-45afa6bbbe5b")
+		)
+		(pin "3"
+			(uuid "8c9f566b-b3e3-4e48-9b56-1310b0cb796a")
+		)
+		(pin "4"
+			(uuid "186bfecb-2556-4deb-9891-a3203e318157")
+		)
+		(pin "5"
+			(uuid "a293e444-ddf8-4653-813f-649586227d97")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 114.427 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e4c0454-38ad-48e5-adb3-4496aea3cbd9")
+		(property "Reference" "#PWR027"
+			(at 114.427 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 114.427 90.297 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.427 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.427 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.427 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b985117-0516-49fe-8a53-51a4ed73281b")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 124.587 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fa625bc-adeb-4876-972b-4d63f0944e2c")
+		(property "Reference" "R38"
+			(at 122.8852 63.6016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 122.8852 65.913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 124.587 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.587 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 124.587 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a567a3db-6d5f-4925-b7d9-76899cf53fe7")
+		)
+		(pin "2"
+			(uuid "82eb424e-c7f0-46d7-8be9-c7eb4b2e57b0")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MBT2222ADW1T1")
+		(at 82.677 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "579d0a9d-f3b3-4f27-875a-7f782961d154")
+		(property "Reference" "Q15"
+			(at 82.677 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBT2222ADW1T1"
+			(at 82.677 99.7204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 85.217 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
+			(at 82.677 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN BJT - 2NPN"
+			(at 82.677 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" "MBT2222ADW1T1G"
+			(at 82.677 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ON Semiconductor"
+			(at 82.677 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
+			(at 85.217 97.4344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "MBT2222ADW1T1G"
+			(at 82.677 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "be8168bf-57f2-4c1a-ac80-72328c8b4322")
+		)
+		(pin "2"
+			(uuid "85aa347a-9cf8-4ae4-89e7-70045b58eecf")
+		)
+		(pin "6"
+			(uuid "1b2fcb33-7495-45c2-a5da-34ce864dc94a")
+		)
+		(pin "3"
+			(uuid "b1157be3-e726-4e76-92b3-6da9b74ad19d")
+		)
+		(pin "4"
+			(uuid "f3a55c8e-e6a7-46d9-8bf2-921f42a131d5")
+		)
+		(pin "5"
+			(uuid "10fc518a-e059-49d4-b7e4-491c10b0856b")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 82.677 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a5f089a-ea96-4822-85c1-ddebe50cdc50")
+		(property "Reference" "R33"
+			(at 80.9752 63.6016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10K"
+			(at 80.9752 65.913 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 82.677 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.677 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 82.677 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfe3d8a9-8585-413f-bddd-85378b74f01a")
+		)
+		(pin "2"
+			(uuid "0dd8c952-e692-49b1-9f57-86cfd9ffaa9f")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 72.517 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d5196f3-ebb5-4d29-bba2-0e24ac7cfbf9")
+		(property "Reference" "R32"
+			(at 74.041 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 73.914 98.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 72.517 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.517 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 72.517 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea179cc3-5edf-47bf-b3a3-eecb080bf0c3")
+		)
+		(pin "2"
+			(uuid "0367be53-8acf-408d-8a5e-193a5610ffad")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 96.52 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62c27b1a-3c34-4727-8e5b-919050dc019f")
+		(property "Reference" "R41"
+			(at 96.52 142.494 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNI (0R)"
+			(at 96.52 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 96.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 96.52 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 96.52 146.812 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1899968e-48f2-4d67-902c-d4aa155fdd85")
+		)
+		(pin "2"
+			(uuid "8be33184-896d-46cd-b2c9-41786b34cd5e")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.667 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79f694e1-f42f-4479-9185-0d6950cafb94")
+		(property "Reference" "#PWR029"
+			(at 129.667 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.667 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.667 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.667 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.667 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f19b8671-9401-466b-bd15-793b7ebdf1fa")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 71.247 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f6679b4-b3d5-47a0-97a3-eb8f37b4d615")
+		(property "Reference" "R31"
+			(at 71.247 82.042 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 71.247 84.074 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 71.247 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 71.247 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 71.247 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9192558e-a35d-4f0a-bb2b-6a6c546f45cf")
+		)
+		(pin "2"
+			(uuid "f1419757-0b4a-40b1-917e-924479e16b67")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MBT2222ADW1T1")
+		(at 124.587 91.44 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91a3948d-0a16-4fb5-bd5b-9add799580eb")
+		(property "Reference" "Q17"
+			(at 124.587 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBT2222ADW1T1"
+			(at 124.587 99.7204 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 127.127 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
+			(at 124.587 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN BJT - 2NPN"
+			(at 124.587 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" "MBT2222ADW1T1G"
+			(at 124.587 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ON Semiconductor"
+			(at 124.587 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
+			(at 127.127 97.4344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "MBT2222ADW1T1G"
+			(at 124.587 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81c175d7-2c44-4725-b217-bc589df88074")
+		)
+		(pin "2"
+			(uuid "919d19e8-7e28-4bab-a8d2-d80ff6fb4bfc")
+		)
+		(pin "6"
+			(uuid "5acffcf3-103e-44c4-b656-de958dbcad71")
+		)
+		(pin "3"
+			(uuid "14c0fcda-d27c-4dce-a211-7b0d3a397364")
+		)
+		(pin "4"
+			(uuid "f8931fb9-9ae4-40f0-b6f6-80ae0736c350")
+		)
+		(pin "5"
+			(uuid "1a995c84-1824-43f8-8816-aec9c8256675")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.757 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbf69b68-8369-4ab1-b56a-3cc0ade741b8")
+		(property "Reference" "#PWR026"
+			(at 87.757 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.757 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.757 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.757 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.757 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1dadb05a-315a-4598-8823-55855059b1d5")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 87.757 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c093c1d1-b5e9-4d05-89fe-7b4405422271")
+		(property "Reference" "R34"
+			(at 89.4842 69.9516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 89.4842 72.263 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 87.757 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.757 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 87.757 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03128ebc-fa70-42b7-a75e-ab50c225a47f")
+		)
+		(pin "2"
+			(uuid "1b050444-510b-4672-ba22-82b323ee28c4")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:NX3008NBKS")
+		(at 66.167 101.6 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6ef5b06-a41f-47d4-a7a3-6a9a9408419a")
+		(property "Reference" "Q14"
+			(at 62.103 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NX3008NBKS"
+			(at 77.851 112.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 80.137 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
+			(at 80.137 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
+			(at 80.137 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 80.137 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NX3008NBKS"
+			(at 80.137 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Proto" "BSS138DWQ-7"
+			(at 66.167 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5409b0f5-6b61-4049-abb5-c4c1c48074b6")
+		)
+		(pin "2"
+			(uuid "d3d35fbb-386f-4c13-84d2-1407eab1c07a")
+		)
+		(pin "6"
+			(uuid "ce28ceb5-9f78-4efe-89c1-11bcde7e0ea4")
+		)
+		(pin "3"
+			(uuid "6a6daa9f-af98-434a-b399-7a9a3e3e6dc8")
+		)
+		(pin "4"
+			(uuid "79aaf40d-37c7-4b2c-9c2f-15acea8b378b")
+		)
+		(pin "5"
+			(uuid "1fb34736-2ef0-418f-9a0b-dd9597d27b6a")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 129.667 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cadfe424-1d4a-4e3a-94a6-4b8d61a778a5")
+		(property "Reference" "R39"
+			(at 131.445 70.231 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 131.445 72.263 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.667 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.667 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 129.667 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e7c0b64-7c52-4fcb-ace4-8b5cf4a17b6e")
+		)
+		(pin "2"
+			(uuid "d3d154b0-0838-4114-b86c-b041401e4293")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:NX3008NBKS")
+		(at 123.317 106.68 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc2b1c10-b043-4ba5-9631-c316e5cc3069")
+		(property "Reference" "Q16"
+			(at 119.634 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NX3008NBKS"
+			(at 127.127 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 137.287 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/NX3008NBKS.pdf"
+			(at 137.287 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual N-Channel MOSFET - 2NMOS"
+			(at 137.287 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Nexperia USA Inc."
+			(at 137.287 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "NX3008NBKS"
+			(at 137.287 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Proto" "BSS138DWQ-7"
+			(at 123.317 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42e9dd09-d538-44f1-88ab-71a1ee6e01a0")
+		)
+		(pin "2"
+			(uuid "b79a7f8f-9eba-48c8-a5fa-1057f5e3d8d7")
+		)
+		(pin "6"
+			(uuid "75a7c2f7-60d5-4809-bc61-ba4479249125")
+		)
+		(pin "3"
+			(uuid "f7514867-7006-4ef7-935b-239472570976")
+		)
+		(pin "4"
+			(uuid "3a9ecb55-2abd-45f6-b24f-43615b427195")
+		)
+		(pin "5"
+			(uuid "0c068ab1-9801-4f32-b8d7-7d2e2b18da9c")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "Q16")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 87.757 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d47428b5-eacb-4ac5-87a7-516054a1cb1f")
+		(property "Reference" "R35"
+			(at 89.4842 99.1616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200K"
+			(at 89.4842 101.473 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 87.757 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.757 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 87.757 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09245a28-0983-48c6-9f88-b7ef606cc777")
+		)
+		(pin "2"
+			(uuid "5d9f6f4e-92e6-427e-a567-5e61187da544")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 113.157 86.36 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ddedf2d9-b779-43bd-8357-ba080e6858ac")
+		(property "Reference" "R36"
+			(at 113.157 81.788 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680R"
+			(at 113.157 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 113.157 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.157 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 113.157 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1016dde-9a02-4f8d-994b-e8fa78f41e8d")
+		)
+		(pin "2"
+			(uuid "6a09aad8-3c22-4df4-825b-b434f853fea7")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 87.757 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "defa1a02-7897-4e91-82ac-262b011f3bdd")
+		(property "Reference" "C12"
+			(at 90.678 109.3216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10nF"
+			(at 90.678 111.633 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 88.7222 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.757 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10nF +-10% 50V X7R"
+			(at 87.757 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8e8f16c-3ede-4ce4-952e-b468df5a0bb4")
+		)
+		(pin "2"
+			(uuid "5c3f6a3d-689b-40f6-aa9a-5e9e0f04b726")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 129.667 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df6e75aa-a8a9-47b7-a8d4-50c49cde1295")
+		(property "Reference" "R40"
+			(at 131.3942 99.1616 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "200K"
+			(at 131.3942 101.473 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.667 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.667 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 129.667 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ccd3274-a282-4f3e-bed7-8387f0d561c8")
+		)
+		(pin "2"
+			(uuid "928f88ae-0ac5-46e9-8cf3-e98540f82ed7")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MBT2222ADW1T1")
+		(at 82.677 73.66 90)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e0cd5dc2-d84e-41da-84ac-b5839ea01b8d")
+		(property "Reference" "Q15"
+			(at 82.677 79.629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBT2222ADW1T1"
+			(at 73.66 70.739 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 80.137 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
+			(at 82.677 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN BJT - 2NPN"
+			(at 82.677 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" "MBT2222ADW1T1G"
+			(at 82.677 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ON Semiconductor"
+			(at 82.677 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
+			(at 80.137 79.629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "MBT2222ADW1T1G"
+			(at 82.677 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff55ad30-7151-4fcd-9661-cca266c41bb7")
+		)
+		(pin "2"
+			(uuid "0e63b8f7-4ee5-4011-b5e4-378c9326accd")
+		)
+		(pin "6"
+			(uuid "57444f81-9a1a-4b0a-86fb-38585ca8f3c0")
+		)
+		(pin "3"
+			(uuid "8ff11c4e-4f5f-4299-82ca-8b16f4f2abec")
+		)
+		(pin "4"
+			(uuid "dbf389c6-12b0-4597-9caa-bb9f23c005d9")
+		)
+		(pin "5"
+			(uuid "9d5dbc08-f411-4edf-96aa-1b0d0ea5df5a")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "Q15")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 114.427 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7044943-7e2a-432f-9318-21e603133437")
+		(property "Reference" "R37"
+			(at 116.078 96.774 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100K"
+			(at 116.078 98.552 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 114.427 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.427 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 114.427 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe980746-ba93-43ec-85b5-9673f20f8935")
+		)
+		(pin "2"
+			(uuid "d8219ac1-60cb-4e26-b820-efde802a5274")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MBT2222ADW1T1")
+		(at 124.587 73.66 90)
+		(mirror x)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ebebec7a-464f-46a6-91fc-a79dc437a9e6")
+		(property "Reference" "Q17"
+			(at 124.587 79.629 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBT2222ADW1T1"
+			(at 115.57 70.739 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 122.047 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
+			(at 124.587 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual NPN BJT - 2NPN"
+			(at 124.587 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Flight" "MBT2222ADW1T1G"
+			(at 124.587 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ON Semiconductor"
+			(at 124.587 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
+			(at 122.047 79.629 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Proto" "MBT2222ADW1T1G"
+			(at 124.587 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bca4f456-7b81-4331-a6c8-d93dcbd70ec0")
+		)
+		(pin "2"
+			(uuid "4a085591-70e5-4b8d-a6f6-5a86ac01dae6")
+		)
+		(pin "6"
+			(uuid "35d7e604-c4ff-4050-bccc-c135c85ce12f")
+		)
+		(pin "3"
+			(uuid "7dbbaf07-1916-4588-8d7c-6b7ddee17191")
+		)
+		(pin "4"
+			(uuid "85f128f4-a614-4f9b-a734-4d0e2d0dd410")
+		)
+		(pin "5"
+			(uuid "c5fc43bc-c752-429d-a460-11bd190cd494")
+		)
+		(instances
+			(project "batteryboard"
+				(path "/7fd1c101-dd03-44e8-abf0-c7acd7a34cab/09413c13-9a6c-438d-8a3c-5305b506045a"
+					(reference "Q17")
+					(unit 2)
+				)
+			)
+		)
+	)
+)

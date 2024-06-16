@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BatteryBoard")(type "KiCad")(uri "${KIPRJMOD}/kicad-libs/BatteryBoard.kicad_sym")(options "")(descr ""))
+)
