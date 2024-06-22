@@ -4516,7 +4516,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:NDS8434"
+		(property "Footprint" ""
 			(at 208.28 101.6 0)
 			(effects
 				(font
@@ -5211,7 +5211,7 @@
 				)
 			)
 		)
-		(property "Footprint" "914620389"
+		(property "Footprint" ""
 			(at 105.41 92.71 0)
 			(effects
 				(font
@@ -5927,7 +5927,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:NDS8434"
+		(property "Footprint" ""
 			(at 208.28 127 0)
 			(effects
 				(font
@@ -6405,7 +6405,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "mainboard:SOT-23"
+		(property "Footprint" ""
 			(at 52.07 102.87 0)
 			(effects
 				(font
@@ -6513,7 +6513,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:NDS8434"
+		(property "Footprint" ""
 			(at 208.28 50.8 0)
 			(effects
 				(font
@@ -6639,7 +6639,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:NDS8434"
+		(property "Footprint" ""
 			(at 208.28 76.2 0)
 			(effects
 				(font

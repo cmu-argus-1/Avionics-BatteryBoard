@@ -2083,7 +2083,7 @@
 		)
 	)
 	(global_label "SCL_Fuel"
-		(shape output)
+		(shape bidirectional)
 		(at 90.297 85.09 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2094,7 +2094,7 @@
 		)
 		(uuid "4625e5c0-7720-49a6-9cac-4f643d120aee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.0946 85.09 0)
+			(at 102.0471 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2105,7 @@
 		)
 	)
 	(global_label "SCL1"
-		(shape input)
+		(shape bidirectional)
 		(at 91.44 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2116,7 +2116,7 @@
 		)
 		(uuid "54033792-add8-4853-bf9c-3f05ac086603")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 84.4713 144.78 0)
+			(at 83.4394 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2149,7 +2149,7 @@
 		)
 	)
 	(global_label "SCL_Fuel"
-		(shape output)
+		(shape bidirectional)
 		(at 101.6 144.78 0)
 		(fields_autoplaced yes)
 		(effects
@@ -2160,7 +2160,7 @@
 		)
 		(uuid "95909848-38ca-48fb-8309-f02b4f9208b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.3976 144.78 0)
+			(at 113.3501 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2171,7 @@
 		)
 	)
 	(global_label "SCL1"
-		(shape input)
+		(shape bidirectional)
 		(at 73.787 76.2 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2182,7 +2182,7 @@
 		)
 		(uuid "9ab01e9d-c4ce-4d9d-8858-59cf7b01ebdf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.8183 76.2 0)
+			(at 65.7864 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
