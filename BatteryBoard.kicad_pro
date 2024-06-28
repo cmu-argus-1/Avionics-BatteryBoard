@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.1524
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -77,7 +77,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -560,7 +560,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "BatteryBoard.step",
       "svg": "",
       "vrml": ""
     },
