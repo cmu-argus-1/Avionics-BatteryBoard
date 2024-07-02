@@ -560,7 +560,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "BatteryBoard.step",
+      "step": "../Board Models/BatteryBoard.step",
       "svg": "",
       "vrml": ""
     },
