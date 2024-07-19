@@ -557,7 +557,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "batteryboard.net",
-      "plot": "",
+      "plot": "../../Gerbers/BatteryBoard",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "../Board Models/BatteryBoard.step",

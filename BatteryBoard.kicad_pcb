@@ -95,8 +95,8 @@
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
-			(usegerberadvancedattributes no)
-			(creategerberjobfile no)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -124,7 +124,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "gerbers/")
+			(outputdirectory "../../Gerbers/BatteryBoard")
 		)
 	)
 	(net 0 "")
@@ -7963,7 +7963,7 @@
 		(uuid "6e0c3451-cc20-47a5-83a9-8dcec7abb9d0")
 		(at 146.304 66.63436 180)
 		(property "Reference" "J2"
-			(at 0 0 0)
+			(at 0.0254 8.29056 0)
 			(layer "B.SilkS")
 			(uuid "4727ad2e-ca1e-4590-a925-ce60f139c7e6")
 			(effects
@@ -17697,6 +17697,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "INSTALL FIRST"
+		(at 146.304 66.6242 -0)
+		(layer "B.SilkS")
+		(uuid "2debc6e6-45cd-4d8e-af01-d5f8b111e119")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.127)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "+"
 		(at 188.9506 100.1014 -90)
 		(layer "B.SilkS")
@@ -17886,6 +17898,17 @@
 			(justify right mirror)
 		)
 	)
+	(gr_text "INSTALL FIRST"
+		(at 146.304 86.3092 0)
+		(layer "F.SilkS")
+		(uuid "004c3b18-9f68-472a-8dac-90a1d1857a1b")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.127)
+			)
+		)
+	)
 	(gr_text "-"
 		(at 188.7474 92.4814 90)
 		(layer "F.SilkS")
@@ -17923,6 +17946,17 @@
 		(at 187.8584 53.4924 0)
 		(layer "F.SilkS")
 		(uuid "4cbb6f5a-02bb-4e19-8701-a4d18ec73df5")
+		(effects
+			(font
+				(size 0.889 0.889)
+				(thickness 0.127)
+			)
+		)
+	)
+	(gr_text "INSTALL FIRST"
+		(at 146.304 66.6242 0)
+		(layer "F.SilkS")
+		(uuid "b09a66e1-e93c-4bec-8ad7-1cb0e2d4cbf7")
 		(effects
 			(font
 				(size 0.889 0.889)
