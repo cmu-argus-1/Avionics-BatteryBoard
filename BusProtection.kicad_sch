@@ -2097,7 +2097,7 @@
 		)
 		(uuid "e349e4b8-55d7-4841-a968-2b41635120b3")
 	)
-	(global_label "SDA1"
+	(global_label "SDA"
 		(shape bidirectional)
 		(at 115.57 76.2 180)
 		(fields_autoplaced yes)
@@ -2109,7 +2109,7 @@
 		)
 		(uuid "0934999a-ec30-446d-b3f3-4381862e206a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.5883 76.2 0)
+			(at 108.7184 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,7 +2163,7 @@
 			)
 		)
 	)
-	(global_label "SCL1"
+	(global_label "SCL"
 		(shape bidirectional)
 		(at 91.44 144.78 180)
 		(fields_autoplaced yes)
@@ -2175,7 +2175,7 @@
 		)
 		(uuid "54033792-add8-4853-bf9c-3f05ac086603")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4394 144.78 0)
+			(at 84.6489 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +2229,7 @@
 			)
 		)
 	)
-	(global_label "SCL1"
+	(global_label "SCL"
 		(shape bidirectional)
 		(at 73.66 76.2 180)
 		(fields_autoplaced yes)
@@ -2241,7 +2241,7 @@
 		)
 		(uuid "9ab01e9d-c4ce-4d9d-8858-59cf7b01ebdf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6594 76.2 0)
+			(at 66.8689 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2251,7 +2251,7 @@
 			)
 		)
 	)
-	(global_label "SDA1"
+	(global_label "SDA"
 		(shape bidirectional)
 		(at 91.44 152.4 180)
 		(fields_autoplaced yes)
@@ -2263,7 +2263,7 @@
 		)
 		(uuid "cd783338-b0db-44dd-a84a-6cb29866be64")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.4583 152.4 0)
+			(at 84.5884 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,6 +2639,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"

@@ -1952,7 +1952,7 @@
 			)
 		)
 	)
-	(global_label "SDA1"
+	(global_label "SDA"
 		(shape bidirectional)
 		(at 90.17 137.16 0)
 		(fields_autoplaced yes)
@@ -1964,7 +1964,7 @@
 		)
 		(uuid "90b72cb3-2039-47ab-96f9-5bcf98042e67")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.2311 137.16 0)
+			(at 97.0216 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,7 +2036,7 @@
 			)
 		)
 	)
-	(global_label "SCL1"
+	(global_label "SCL"
 		(shape bidirectional)
 		(at 90.17 134.62 0)
 		(fields_autoplaced yes)
@@ -2048,7 +2048,7 @@
 		)
 		(uuid "e9ed44fc-6cbd-4095-8dc3-86a217f2bb93")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.1706 134.62 0)
+			(at 96.9611 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
